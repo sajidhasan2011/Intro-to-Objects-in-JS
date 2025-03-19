@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Javascript Objects</h2>
+    <p id="demo"></p>
+
+    <script>
+      var BMW = {
+        model: "M5 CS",
+        topspeed: "305 km/h",
+        price: "$165,900",
+      };
+
+      document.getElementById(
+        "demo"
+      ).innerHTML = `Car Model    :   ${BMW.model}<br>
+                                                    Car TopSpeed :   ${BMW.topspeed}<br>
+                                                    Car Price    :   ${BMW.price}`;
+    </script>
+  </body>
+</html>
