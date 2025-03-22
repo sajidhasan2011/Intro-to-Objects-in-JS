@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Finding the largest number with Arguments</h2>
+    <p id="result"></p>
+    <script>
+      function findsum() {
+        var sum = 0;
+
+        for (i = 0; i < arguments.length; i++) {
+          sum = sum + arguments[i];
+        }
+        return sum;
+      }
+      document.getElementById("result").innerHTML = findsum(
+        5,
+        6,
+        4,
+        3,
+        8,
+        7,
+        7,
+        7,
+        34,
+        63,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      );
+    </script>
+  </body>
+</html>
